@@ -1,0 +1,7 @@
+pokeapi
+node_modules
+npm-debug.log
+www
+/db
+*.swp
+/csv

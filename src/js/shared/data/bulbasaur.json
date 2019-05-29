@@ -1,0 +1,235 @@
+{
+  "description": {
+    "description": "For some time after its birth, it grows by gaining nourishment from the seed on its back."
+  },
+  "supplemental": {
+    "specialAttackEV": 1,
+    "hpEV": 0,
+    "hatchSteps": 5100,
+    "defenseEV": 0,
+    "attackEV": 0,
+    "specialDefenseEV": 0,
+    "speedEV": 0,
+    "genderRatio": 87.5,
+    "species": "Seed Pokémon",
+    "japaneseName": "フシギダネ",
+    "hepburnName": "Fushigidane"
+  },
+  "types": [
+    {
+      "whenDefending": [
+        {
+          "multiplier": 2,
+          "name": "flying"
+        },
+        {
+          "multiplier": 2,
+          "name": "poison"
+        },
+        {
+          "multiplier": 2,
+          "name": "bug"
+        },
+        {
+          "multiplier": 2,
+          "name": "fire"
+        },
+        {
+          "multiplier": 0.5,
+          "name": "water"
+        },
+        {
+          "multiplier": 0.5,
+          "name": "grass"
+        },
+        {
+          "multiplier": 0.5,
+          "name": "electric"
+        },
+        {
+          "multiplier": 2,
+          "name": "ice"
+        }
+      ],
+      "whenAttacking": [
+        {
+          "multiplier": 0.5,
+          "name": "fighting"
+        },
+        {
+          "multiplier": 0.5,
+          "name": "grass"
+        },
+        {
+          "multiplier": 0.5,
+          "name": "poison"
+        },
+        {
+          "multiplier": 0.5,
+          "name": "flying"
+        },
+        {
+          "multiplier": 0.5,
+          "name": "bug"
+        },
+        {
+          "multiplier": 0.5,
+          "name": "dragon"
+        },
+        {
+          "multiplier": 0.5,
+          "name": "steel"
+        },
+        {
+          "multiplier": 2,
+          "name": "water"
+        },
+        {
+          "multiplier": 2,
+          "name": "ground"
+        },
+        {
+          "multiplier": 2,
+          "name": "rock"
+        }
+      ],
+      "_id": "grass",
+      "_rev": "1-A"
+    },
+    {
+      "whenDefending": [
+        {
+          "multiplier": 0.5,
+          "name": "fighting"
+        },
+        {
+          "multiplier": 0.5,
+          "name": "poison"
+        },
+        {
+          "multiplier": 2,
+          "name": "ground"
+        },
+        {
+          "multiplier": 0.5,
+          "name": "bug"
+        },
+        {
+          "multiplier": 0.5,
+          "name": "grass"
+        },
+        {
+          "multiplier": 2,
+          "name": "psychic"
+        },
+        {
+          "multiplier": 0.5,
+          "name": "fairy"
+        }
+      ],
+      "whenAttacking": [
+        {
+          "multiplier": 0.5,
+          "name": "poison"
+        },
+        {
+          "multiplier": 0.5,
+          "name": "ground"
+        },
+        {
+          "multiplier": 0.5,
+          "name": "rock"
+        },
+        {
+          "multiplier": 0.5,
+          "name": "ghost"
+        },
+        {
+          "multiplier": 0,
+          "name": "steel"
+        },
+        {
+          "multiplier": 2,
+          "name": "grass"
+        },
+        {
+          "multiplier": 2,
+          "name": "fairy"
+        }
+      ],
+      "_id": "poison",
+      "_rev": "1-A"
+    }
+  ],
+  "evolutions": {
+    "to": [
+      {
+        "nationalId": 2,
+        "name": "Ivysaur",
+        "method": "level-up",
+        "level": 16
+      }
+    ]
+  },
+  "monster": {
+    "abilities": [
+      {
+        "name": "chlorophyll",
+        "resource_uri": "/api/v1/ability/34/"
+      },
+      {
+        "name": "overgrow",
+        "resource_uri": "/api/v1/ability/65/"
+      }
+    ],
+    "attack": 49,
+    "catch_rate": 0,
+    "created": "2013-11-03T15:05:41.260678",
+    "defense": 49,
+    "descriptions": [
+      {
+        "name": "bulbasaur_gen_5",
+        "resource_uri": "/api/v1/description/15/"
+      }
+    ],
+    "egg_cycles": 0,
+    "egg_groups": [
+      {
+        "name": "Plant",
+        "resource_uri": "/api/v1/egg/7/"
+      },
+      {
+        "name": "Monster",
+        "resource_uri": "/api/v1/egg/1/"
+      }
+    ],
+    "ev_yield": "1 special attack",
+    "exp": 64,
+    "growth_rate": "medium slow",
+    "happiness": 0,
+    "height": "7",
+    "hp": 45,
+    "male_female_ratio": "87.5/12.5",
+    "modified": "2013-11-30T13:59:47.261100",
+    "name": "Bulbasaur",
+    "national_id": 1,
+    "pkdx_id": 1,
+    "resource_uri": "/api/v1/pokemon/1/",
+    "special-attack": 65,
+    "special-defense": 65,
+    "species": "seed pokemon",
+    "speed": 45,
+    "total": 0,
+    "types": [
+      {
+        "name": "poison"
+      },
+      {
+        "name": "grass"
+      }
+    ],
+    "weight": "69",
+    "_id": "00001",
+    "_rev": "1-9ddf9f39b2728a7945117b870d9b0901"
+  }
+}
